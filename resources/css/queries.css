@@ -1,0 +1,250 @@
+
+@media only screen and (max-width: 1200px){
+
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row { padding: 0 2%; }
+
+
+    nav .row{padding: 0}
+    nav .row{width: 95%;}
+    .sticky .main-nav{  margin: 18px 21%; }
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited{  padding: 1px;}
+    .box-skill,.container div{ width: 90%;}
+    .progressbar { margin-top: 14px; margin-bottom: 42px; }
+    .big-mock{
+        width: 450px;
+        height: auto;
+
+    }
+    .mock-description{
+        width: 40%;
+        line-height: 130%;
+    }
+
+    .mock-up{  width: 52%;   margin-top: -290px ;}
+}
+
+
+@media only screen and (max-width: 1023px){
+
+    body{ font-size: 18px;}
+    section{ padding: 60px 0;}
+    h1{ font-size: 200%;}
+    h2{ width: 68%;}
+    .description{ width: 68%;}
+    .logo-white{ margin-top: 40px; }
+    .sticky .main-nav{  margin: 18px 14%; }
+    .expertise-box{ width: 100%;}
+    .big-mock{
+        height: 220px; width: auto;
+    }
+    .mock-description{
+        width: 32%; line-height: 130%;
+    }
+    .mock-up{  width: 60%;   margin-top: -290px ;}
+    .mockup-box .seprator{ margin-top: 70px; width:45% ; }
+/*
+    .form input{ width: 10%; }
+    .form textarea{
+        width: 35%;
+        height: 210px;
+    }
+    form{margin-left: 0px;}
+    .btn-send{ margin-left: 39.5%;}
+    .footer{ width: 100%;}*/
+
+    .form{width: 100%; }
+    .contact img {margin-left: 100%;}
+    .cont-box {width: 42%;  margin-left: 95%; font-size: 84%;}
+
+    .social-icon{ margin-left: 95%; margin-bottom: 40px;}
+
+    .social-icon a:link,
+    .social-icon a:visited
+    { font-size: 145%; margin-right:7px; }
+
+    .btn-send{
+        margin-left: 47.7%;
+        margin-top: 4%;
+    }
+    .footer{ width: 100%;}
+}
+
+
+
+
+@media only screen and (max-width: 767px){
+    .main-nav{display: none;}
+
+    body{font-size: 16px;}
+    section{padding: 30px 0;}
+
+    .logo-white{
+        width: 100px;
+        height: 50px;
+        margin: 140px 35%;
+    }
+
+    h1{ font-size: 165%}
+    h2{ width: 40%; font-size: 150%}
+    .description{ width: 40%;letter-spacing: 1px;}
+
+
+    .btn-full:link,
+    .btn-full:visited
+    {
+        font-size: 90%;
+        margin-top: 30px;
+    }
+
+    .btn-scroll{
+        font-size: 80%;
+        margin-top: 18%;
+    }
+
+    .hero-text-box .icon-btn{  font-size: 58%;}
+
+    .big-mock{
+        width: 400px;
+        height: auto;
+
+    }
+
+    .mock-description{
+        width: 40%;
+        margin-top: 300px ;
+    }
+
+    .mock-up{
+        float: left;
+        display: inline-block;
+        margin-left: 3%;
+        margin-top: -520px ;
+    }
+    .mockup-box .seprator{ margin-top: 70px; width:30% ; margin-left: 40px;}
+
+
+    form{margin-left: -0.8% }
+    .form input{ width: 10%;}
+    .form textarea{width: 35%;height:150px;}
+    .contact img {margin-left: 50%;}
+    .cont-box {width: 35%;  margin-left: 48%; font-size: 84%;}
+
+    .social-icon{ margin-left: 47%; margin-bottom: 40px;}
+
+    .social-icon a:link,
+    .social-icon a:visited
+    { font-size: 150%; margin-right:4px; }
+
+    .btn-send{
+        margin-left: 24.7%;
+        margin-top: 4%;
+    }
+    .footer{width: 100%; }
+
+    .progressbar { margin-top: 5px; margin-bottom: 36px; }
+
+
+
+}
+
+
+
+@media only screen and (max-width: 480px){
+    section { padding: 25px 0; }
+    h1{  font-size: 140%;}
+    h2{ font-size: 130%;width: 33%;}
+    .description{ width: 33%;}
+    .icon-big{font-size: 340%}
+    .box-skill .col{width: 50%}
+    .box-skill .container{width: 50%;}
+    .progressbar {
+        margin-top: 0px;
+        margin-bottom: 37px;
+    }
+
+    .big-mock{
+        width: 260px;
+        height: auto;
+
+    }
+
+    .mock-description{
+        width: 28%;
+        margin-top: 220px ;
+        margin-left: 5%;
+
+    }
+
+
+    .mock-up{
+        float: left;
+        display: inline-block;
+        margin-left: 5%;
+        margin-top: -480px ;
+    }
+    .mockup-box .seprator{ width:26% ; }
+
+    .contact img {margin-left: 12%;}
+    .cont-box {width: 11%;  margin-left: 11%;}
+
+    .social-icon{ margin-left: 10.6%; margin-bottom: 40px;}
+
+    .form input{
+        display: block;  margin-bottom: 50px;
+        width: 25%;height:44px ; margin-left: 4% ;text-align: center;
+    }
+    .form textarea{text-align: center;margin-top: 0;width: 25%;margin-left: 4%}
+
+    .btn-send{
+        margin-left: 20.9%;
+        margin-top: 4%;
+    }
+    .footer{  width: 100%;  }
+    .footer img{margin-left: 40%;}
+    .footer p{margin-left: 20%;}
+
+    .btn-send a:link{  padding: 10px 20px;  }
+    .btn-visit a:link {   padding: 8px;  }
+    .btn-resume a:link{ padding: 12px;}
+    .btn-full:link {
+        font-size: 80%;padding: 13px;
+    }
+
+}
+
+
+@media only screen and (max-width: 380px){
+    h2{width: 25%;}
+    .description{ width: 25%;}
+    .mock-description{
+        width: 24%;
+        margin-left: 3%;
+
+    }
+    .mock-up{
+        margin-left: 3%;
+    }
+
+
+    .contact img {margin-left: 7%;}
+    .cont-box {width: 11%;  margin-left: 6%;}
+
+    .social-icon{ margin-left: 5.6%; margin-bottom: 40px;}
+
+    .form input{
+         margin-bottom: 25px;
+        width: 20%;height:40px ; margin-left: 1% ;
+    }
+    .form textarea{margin-top: 0;width: 20%;height:130px;margin-left: 1%}
+
+    .btn-send{
+        margin-left: 12.8%;
+        margin-top: 3%;
+    }
+}
