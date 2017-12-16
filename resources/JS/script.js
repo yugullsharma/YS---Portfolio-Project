@@ -15,7 +15,7 @@ $(document).ready(function(){
         }
 
     },
-                                 {
+      {
         offset: '60px;'
     });
 
