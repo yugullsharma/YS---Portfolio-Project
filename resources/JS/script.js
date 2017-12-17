@@ -20,6 +20,9 @@ $(document).ready(function(){
     });
 
 
+
+
+
     $('.js--scroll-to-contact').click(function(){
 
         $('html, body').animate({scrollTop: $('.js--contact').offset().top}, 1500);

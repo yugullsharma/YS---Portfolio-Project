@@ -73,6 +73,12 @@
         margin-top: 4%;
     }
     .footer{ width: 100%;}
+    .arrow-2 i.fa{
+        font-size: 16px;
+        vertical-align:baseline;
+
+    }
+
 }
 
 
