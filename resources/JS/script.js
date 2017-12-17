@@ -25,14 +25,14 @@ $(document).ready(function(){
 
     $('.js--scroll-to-contact').click(function(){
 
-        $('html, body').animate({scrollTop: $('.js--contact').offset().top}, 1500);
+        $('html, body').animate({scrollTop: $('.js--contact').offset().top-35}, 1500);
 
     });
 
 
     $('.js--scroll-to-expertise').click(function(){
 
-        $('html, body').animate({scrollTop: $('.js--expertise').offset().top}, 1000);
+        $('html, body').animate({scrollTop: $('.js--expertise').offset().top-45}, 1000);
 
     });
 
