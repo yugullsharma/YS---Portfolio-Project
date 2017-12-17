@@ -80,6 +80,8 @@
 
 @media only screen and (max-width: 767px){
     .main-nav{display: none;}
+    .sticky{ height: 52px;}
+    .sticky .logo-dark{margin-top:2.5%; margin-left: 40%; }
 
     body{font-size: 16px;}
     section{padding: 30px 0;}
@@ -247,6 +249,7 @@
         margin-left: 15.8%;
         margin-top: 3%;
     }
+
 }
 
 
