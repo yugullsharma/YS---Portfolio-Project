@@ -220,31 +220,35 @@
 
 
 @media only screen and (max-width: 380px){
-    h2{width: 25%;}
-    .description{ width: 25%;}
+    h2{width: 30%;}
+    .description{ width: 30%;}
     .mock-description{
         width: 24%;
-        margin-left: 3%;
+        margin-left: 3.5%;
 
     }
     .mock-up{
-        margin-left: 3%;
+        margin-left: 3.5%;
     }
 
 
-    .contact img {margin-left: 7%;}
-    .cont-box {width: 11%;  margin-left: 6%;}
+    .contact img {margin-left: 10%;}
+    .cont-box {width: 11%;  margin-left: 9%;}
 
-    .social-icon{ margin-left: 5.6%; margin-bottom: 40px;}
+    .social-icon{ margin-left: 8.6%; margin-bottom: 40px;}
 
     .form input{
          margin-bottom: 25px;
-        width: 20%;height:40px ; margin-left: 1% ;
+        width: 20%;height:40px ; margin-left: 4% ;
     }
-    .form textarea{margin-top: 0;width: 20%;height:130px;margin-left: 1%}
+    .form textarea{margin-top: 0;width: 20%;height:130px;margin-left: 4%}
 
     .btn-send{
-        margin-left: 12.8%;
+        margin-left: 15.8%;
         margin-top: 3%;
     }
 }
+
+
+
+
