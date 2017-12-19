@@ -14,14 +14,14 @@
     <link rel="shortcut icon" href="favicons/favicon.ico">
     <meta name="msapplication-config" content="favicons/browserconfig.xml">
     <meta name="theme-color" content="#fafafa">
-
+    <!-------------------- --->
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
-    <!--<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Roboto:300,500,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="vendors/css/type-heading.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
     <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
 </head>
@@ -31,9 +31,10 @@
     <header>
         <nav>
             <div class="row">
+                <!-- LOGO  -->
                 <img src="resources/img/logo-white.png" alt="logo" class="logo-white">
                 <img src="resources/img/logo-dark.png" alt="logo" class="logo-dark">
-
+                <!-- Main-Navigation  -->
                 <ul class="main-nav" id="home">
                     <li><a href="#home" class="js--scroll-to-header active">home</a></li>
                     <li><a href="#skills" class="js--scroll-to-skills">Professonal skills</a></li>
@@ -42,9 +43,7 @@
                 </ul>
             </div>
         </nav>
-
-
-
+        <!-- Main-Heading  -->
         <div class="hero-text-box cd-intro">
             <h1 class="cd-headline clip is-full-width">
                 <span>Hi, I'm Yugul. I design &amp; build<br></span>
@@ -55,19 +54,19 @@
                     <b>web applications.</b>
                 </span>
             </h1>
+            <!-- Main-Heading scroll button  -->
             <a href="#" class="btn-full js--scroll-to-contact">Yes,I'm available for hire </a>
             <a href="#" class="btn-scroll js--scroll-to-expertise"><br>learn more about me</a>
-
+            <!-- Main-Heading scroll Arrow Icon  -->
             <div class="arrow-container animated fadeInDown">
                 <div class="arrow-2">
-                    <a href="#"><i class="fa ion-arrow-down-b icon-btn js--scroll-to-expertise"></i></a>
+                    <a href="#"><i class="fa ion-arrow-down-b js--scroll-to-expertise"></i></a>
                 </div>
                 <div class="arrow-1 animated hinge infinite zoomIn"></div>
             </div>
         </div>
     </header>
-
-
+    <!-- Section Expertise  -->
     <section class="expertise js--expertise" id="expertise">
         <div class="row">
             <h2>My expertise</h2>
@@ -96,16 +95,13 @@
         <hr class="seprator">
 
     </section>
-
-
-
-
+    <!-- Section Skills  -->
     <section class="skills js--skills" id="skills">
         <div class="row">
             <h2>Professional skills</h2>
             <p class="description"> My skill and Knowledge</p>
         </div>
-
+        <!-- Progress Bar Box  -->
         <div class="row box-skill">
             <div class="col span-1-of-2 skill-tag">
                 <ul>
@@ -116,7 +112,6 @@
                     <li>Adobe Photoshop</li>
                 </ul>
             </div>
-
             <div class="col span-1-of-2 container">
                 <div id="html"></div>
                 <div id="css"></div>
@@ -130,8 +125,7 @@
         </div>
         <hr class="seprator">
     </section>
-
-
+    <!-- Section Projects  -->
     <section class="projects js--projects" id="projects">
         <div class="row">
             <h2>projects</h2>
@@ -149,17 +143,15 @@
                     <a href="https://goo.gl/aqPLpD" target="_blank">visit website</a>
                 </div>
             </div>
-
+            <!-- Mock up   -->
             <div class="mock-up">
                 <img src="resources/img/mock-up-mini.jpg" alt="yummy food mockup" class="big-mock">
-                <!--  <img src="resources/img/yummyf_mockup_mob-min.png" alt="yummyfood Mob mockup" class="mob-mock">        -->
             </div>
             <hr class="seprator">
 
         </div>
     </section>
-
-
+    <!-- Section Contact -->
     <section class="contact js--contact" id="contact">
         <div class="row">
             <h2>want to work together&#63;</h2>
@@ -174,15 +166,18 @@
                 <div class="social-icon">
                     <a href="https://www.linkedin.com/in/yugullsharma/" target="_blank"><i class="ion-social-linkedin"></i></a>
                     <a href="https://github.com/yugullsharma" target="_blank"><i class="ion-social-github"></i></a>
-                    <a href="mailto:yugul.sharma@gmail.com"><i class="ion-android-mail"></i></a>
                     <a href="https://plus.google.com/101910345794961408373" target="_blank"><i class="ion-social-googleplus-outline"></i></a>
-
-
+                    <a href="mailto:yugul.sharma@gmail.com"><i class="ion-android-mail"></i></a>
                 </div>
             </div>
-
             <div class="col span-2-of-3 form clearfix">
-                <form action="http://formspree.io/yugul.sharma@gmail.com" method="post">
+                <!-- Form  -->
+                <form action="https://formspree.io/yugul.sharma@gmail.com" method="post">
+                    <div class="row">
+                        <p id='thanks' style='display: none;'>
+                            Thanks for contacting us, we'll be in touch soon!
+                        </p>
+                    </div>
                     <div class="row">
                         <input type="text" name="name" placeholder="Name" class="clearfix" required>
                         <input type="email" name="email" placeholder="E-mail" required>
@@ -191,16 +186,17 @@
                     <div class="row">
                         <textarea name="message" placeholder="Message"></textarea>
                     </div>
+                    <div class="row clearfix"><input type="submit" value="send"></div>
+                    <input type="hidden" name="_next" value="resources/message.html" id="msg-send">
                 </form>
-                <div class="row btn-send clearfix"><a href="#">send</a></div>
             </div>
         </div>
     </section>
-
+    <!-- Footer -->
     <footer>
         <div class="row footer">
             <div class="col span-1-of-3 footer-logo">
-                <a href="#"><img src="resources/img/profile-logo2.png" alt="logo"></a>
+                <a href="#"><img src="resources/img/logo-footer.png" alt="logo"></a>
             </div>
             <div class="col span-2-of-3">
                 <p id="name"><span id="copy">&copy;</span> YUGUL SHARMA 2017</p>
@@ -208,68 +204,21 @@
             </div>
         </div>
     </footer>
-
-
-
-
-
-
+    <!-- All script files  -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <!-- page preload  -->
     <script type="text/javascript">
-        //paste this code under the head tag or in a separate js file.
-        // Wait for window load
         $(window).load(function() {
             // Animate loader off screen
             $(".page-preload").fadeOut("slow");;
         });
 
     </script>
-
     <script src="vendors/JS/jquery.lineProgressbar.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
     <script src="js/type-heading.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
     <script src="resources/JS/script.js"></script>
-
-
 </body>
-
 </html>
-
-
-
-
-<!-- <script type="text/javascript" src="https://cdn.bootcss.com/typed.js/1.1.4/typed.min.js"></script>
-
-<script src="vendors/js/jquery.waypoints.min.js"></script>
-
--->
-
-
-
-
-
-
-
-
-
-
-<!--
-
-
-
-<div class="hero-text-box">
-<h1>Hi, I'm Yugul. I design &amp; build<br>
-<span class="write">
-</span>
-</h1>
-<a href="#" class="btn-full js--scroll-to-contact">Yes,I'm available for hire </a>
-<a href="#" class="btn-scroll js--scroll-to-expertise"><br>learn more about me</a>
-<a href="#"><i class="ion-chevron-down icon-btn js--scroll-to-expertise"></i></a>
-</div>
-
-
-
-
-
--->

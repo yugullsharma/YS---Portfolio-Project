@@ -5,10 +5,7 @@
         width: 100%;
         padding: 0 2%;
     }
-
     .row { padding: 0 2%; }
-
-
     nav .row{padding: 0}
     nav .row{width: 95%;}
     .sticky .main-nav{  margin: 18px 21%; }
@@ -25,7 +22,6 @@
         width: 40%;
         line-height: 130%;
     }
-
     .mock-up{  width: 52%;   margin-top: -290px ;}
 }
 
@@ -48,16 +44,6 @@
     }
     .mock-up{  width: 60%;   margin-top: -290px ;}
     .mockup-box .seprator{ margin-top: 70px; width:45% ; }
-/*
-    .form input{ width: 10%; }
-    .form textarea{
-        width: 35%;
-        height: 210px;
-    }
-    form{margin-left: 0px;}
-    .btn-send{ margin-left: 39.5%;}
-    .footer{ width: 100%;}*/
-
     .form{width: 100%; }
     .contact img {margin-left: 100%;}
     .cont-box {width: 42%;  margin-left: 95%; font-size: 84%;}
@@ -68,66 +54,51 @@
     .social-icon a:visited
     { font-size: 145%; margin-right:7px; }
 
-    .btn-send{
-        margin-left: 47.7%;
+    input[type=submit]{
+        margin-left: 38%;
         margin-top: 4%;
     }
     .footer{ width: 100%;}
     .arrow-2 i.fa{
         font-size: 16px;
         vertical-align:baseline;
-
     }
-
 }
-
-
-
 
 @media only screen and (max-width: 767px){
     .main-nav{display: none;}
     .sticky{ height: 52px;}
     .sticky .logo-dark{margin-top:2.5%; margin-left: 40%; }
-
     body{font-size: 16px;}
     section{padding: 30px 0;}
-
     .logo-white{
         width: 100px;
         height: 50px;
         margin: 120px 35%;
     }
-
     h1{ font-size: 165%}
     h2{ width: 40%; font-size: 150%}
     .description{ width: 40%;letter-spacing: 1px;}
-
-
     .btn-full:link,
     .btn-full:visited
     {
         font-size: 90%;
         margin-top: 30px;
     }
-
     .btn-scroll{
         font-size: 80%;
         margin-top: 18%;
     }
-
-    .hero-text-box .icon-btn{  font-size: 58%;}
-
+    .arrow-2{  width:22px;  }
+    .arrow-2 i.fa{font-size: 12px;}
     .big-mock{
         width: 400px;
         height: auto;
-
     }
-
     .mock-description{
         width: 40%;
         margin-top: 300px ;
     }
-
     .mock-up{
         float: left;
         display: inline-block;
@@ -135,33 +106,23 @@
         margin-top: -520px ;
     }
     .mockup-box .seprator{ margin-top: 70px; width:30% ; margin-left: 40px;}
-
-
     form{margin-left: -0.8% }
     .form input{ width: 10%;}
     .form textarea{width: 35%;height:150px;}
     .contact img {margin-left: 50%;}
     .cont-box {width: 35%;  margin-left: 48%; font-size: 84%;}
-
     .social-icon{ margin-left: 47%; margin-bottom: 40px;}
-
     .social-icon a:link,
     .social-icon a:visited
     { font-size: 150%; margin-right:4px; }
-
-    .btn-send{
-        margin-left: 24.7%;
+    input[type=submit]{
+        margin-left: 27%;
         margin-top: 4%;
+        width: 8%;
     }
     .footer{width: 100%; }
-
     .progressbar { margin-top: 5px; margin-bottom: 36px; }
-
-
-
 }
-
-
 
 @media only screen and (max-width: 480px){
     section { padding: 25px 0; }
@@ -175,21 +136,17 @@
         margin-top: 0px;
         margin-bottom: 37px;
     }
-
     .big-mock{
         width: 260px;
         height: auto;
 
     }
-
     .mock-description{
         width: 28%;
         margin-top: 220px ;
         margin-left: 5%;
 
     }
-
-
     .mock-up{
         float: left;
         display: inline-block;
@@ -197,35 +154,28 @@
         margin-top: -480px ;
     }
     .mockup-box .seprator{ width:26% ; }
-
     .contact img {margin-left: 12%;}
     .cont-box {width: 11%;  margin-left: 11%;}
-
-    .social-icon{ margin-left: 10.6%; margin-bottom: 40px;}
-
+    .social-icon{ margin-left: 10.8%; margin-bottom: 40px;}
     .form input{
         display: block;  margin-bottom: 50px;
         width: 25%;height:44px ; margin-left: 4% ;text-align: center;
     }
     .form textarea{text-align: center;margin-top: 0;width: 25%;margin-left: 4%}
-
-    .btn-send{
-        margin-left: 20.9%;
-        margin-top: 4%;
-    }
     .footer{  width: 100%;  }
     .footer img{margin-left: 40%;}
     .footer p{margin-left: 22%;}
-
-    .btn-send a:link{  padding: 10px 20px;  }
+    input[type=submit]{
+       width: 8%;
+        margin-left: 20.9%;
+        margin-top: 4%;
+    }
     .btn-visit a:link {   padding: 8px;  }
     .btn-resume a:link{ padding: 12px;}
     .btn-full:link {
         font-size: 80%;padding: 13px;
     }
-
 }
-
 
 @media only screen and (max-width: 380px){
     h2{width: 30%;}
@@ -233,31 +183,21 @@
     .mock-description{
         width: 24%;
         margin-left: 3.5%;
-
     }
     .mock-up{
         margin-left: 3.5%;
     }
-
-
     .contact img {margin-left: 10%;}
     .cont-box {width: 11%;  margin-left: 9%;}
-
-    .social-icon{ margin-left: 8.6%; margin-bottom: 40px;}
-
+    .social-icon{ margin-left: 8.7%; margin-bottom: 40px;}
     .form input{
          margin-bottom: 25px;
         width: 20%;height:40px ; margin-left: 4% ;
     }
     .form textarea{margin-top: 0;width: 20%;height:130px;margin-left: 4%}
-
-    .btn-send{
+    input[type=submit]{
+        width: 8%;
         margin-left: 15.8%;
         margin-top: 3%;
     }
-
 }
-
-
-
-
