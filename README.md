@@ -39,18 +39,22 @@ And plugins.
 - [JSHint](is used to prevent JavaScript error.)
 - [Beautify](used to format Jqury.)
 
+### Adobe photoshop CS 5
+
+- Used to create whole project _UI Design_ and Mockup.
+
 ### Resources I used for this are-
 
--[JQuery Line Progress Bar](https://www.jqueryscript.net/chart-graph/jQuery-Progress-Bar-Plugin-LineProgressbar.html) to show progress using progress bar.
+- [JQuery Line Progress Bar](https://www.jqueryscript.net/chart-graph/jQuery-Progress-Bar-Plugin-LineProgressbar.html) to show progress using progress bar.
 
--[type-heading.js](https://www.jqueryscript.net/chart-graph/jQuery-Progress-Bar-Plugin-LineProgressbar.html) to show progress using progress bar.
+- [type-heading.js](https://www.jqueryscript.net/chart-graph/jQuery-Progress-Bar-Plugin-LineProgressbar.html) to show progress using progress bar.
 
--[waypoint](http://imakewebthings.com/waypoints/) use to make sticky navigation.
+- [waypoint](http://imakewebthings.com/waypoints/) use to make sticky navigation.
 
--[Type heading.js](https://codyhouse.co/gem/css-animated-headlines/) use to make animated headline.
+- [Type heading.js](https://codyhouse.co/gem/css-animated-headlines/) use to make animated headline.
 
--[sweetalert.min.js](https://sweetalert.js.org/guides/) use to make animated alert message.
+- [sweetalert.min.js](https://sweetalert.js.org/guides/) use to make animated alert message.
 
--[animate.css](https://daneden.github.io/animate.css/) use to make css animation.
+- [animate.css](https://daneden.github.io/animate.css/) use to make css animation.
 
 
