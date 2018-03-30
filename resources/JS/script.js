@@ -112,7 +112,7 @@ $(document).scroll(function () {
                 duration: 1150
             });
             $('#jscript').LineProgressbar({
-                percentage: 70,
+                percentage: 80,
                 radius: '3px',
                 height: '20px',
                 fillBackgroundColor: '#FF0044',
@@ -120,7 +120,7 @@ $(document).scroll(function () {
                 duration: 1200
             });
             $('#jq').LineProgressbar({
-                percentage: 75,
+                percentage: 72,
                 radius: '3px',
                 height: '20px',
                 fillBackgroundColor: '#FF0044',
